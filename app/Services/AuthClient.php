@@ -41,7 +41,7 @@ class AuthClient
             $error = true;
         }
         $response = json_decode($response, true);
-
+        AccessToken::create($response);
         $response['error'] = $error;
         return $response;
     }
