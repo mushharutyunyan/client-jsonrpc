@@ -1,5 +1,3 @@
-<p>Service can help you to calculate client debit/credit transactions</p>
-
 ## Installation
 
 Clone this repository
